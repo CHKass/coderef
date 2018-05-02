@@ -1,0 +1,53 @@
+/* Start of minimised button menus */
+
+#cpBtn {
+	margin-left:20px;
+	padding:3px 5px;
+	background-color:#ebedee;
+	border-radius:4px;
+	border:#fff;
+}
+#cpBtn:hover {
+	background-color:#d5edfb;
+}
+
+#cpBtn > div {
+	width:20px;
+	height:4px;
+	background:$mainBlue;
+	margin:3px 0px;
+	border-radius:4px;
+}	
+
+
+
+
+/* Reveal and Hide Styles */
+
+.menu {
+	text-decoration:none;
+	padding-top:10px;
+	color:#083b5e;
+}
+.menu:hover {
+	color:#e41207;
+}
+
+.toggle-btn {
+	display:none;
+}
+
+@media screen and (max-width: 460px) {
+	.toggle-btn-visible {
+	display:block;
+	}
+	.toggle-target-hidden {
+	display:none;
+	}
+	.toggle-target-expanded {
+	display:block;
+	}
+	
+}
+
+/* End Reveal and Hide Styles */

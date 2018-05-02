@@ -1,0 +1,81 @@
+.container {
+	max-width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	box-sizing:border-box;
+}
+
+.page-content {
+	margin-left:10rem;
+	margin-right:2.5rem;
+	box-sizing:border-box;
+}
+
+.text-name {
+	cursor:pointer;
+}
+
+.col-wrapper {
+	max-width:100%;
+	height:auto;
+	margin-bottom:1rem;
+}
+
+.col1 {
+	float:left;
+	width:100%;
+	margin-bottom:1rem;
+	text-decoration:none;
+	box-sizing:border-box;
+}
+
+.col2 {
+	float:left;
+	width:100%;
+	margin-bottom:1rem;
+	box-sizing:border-box;
+}
+
+.info-text {
+	padding-left:.8rem;
+}
+
+.sub-list {
+	margin-right:.7rem;
+}
+
+
+@media screen and (max-width: 460px) {
+	.page-content {
+		margin-left:1.25rem;
+		margin-right:1.25rem;
+	}
+	
+} 	
+
+/* Clearfix Method */
+/* =============== */
+
+.fix {
+	clear: both;
+}
+	
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
+
+/* /End Clearfix Method */
+/* ==================== */
+
+
+

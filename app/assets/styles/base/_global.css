@@ -1,0 +1,31 @@
+body {
+	font-family:'Lato', sans-serif;
+	text-decoration:none;
+	word-spacing:.125rem;
+	color:$mainGrey;
+}
+
+h1 {
+	font-family:'Lato', sans-serif;
+	text-decoration:none;
+	font-size:1.2rem;
+	font-weight:500;
+	word-spacing:.125rem;
+	color:$mainBlue;
+}
+
+h2 {
+	font-family:'Lato', sans-serif;
+	text-decoration:none;
+	margin-top:.45rem;
+	padding-top:.25rem;
+	font-size:1.2rem;
+	font-weight:500;
+	word-spacing:.125rem;
+	color:#fff;
+}
+
+img {
+	max-width:100%;
+	height:auto;
+}

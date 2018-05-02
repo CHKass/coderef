@@ -1,0 +1,106 @@
+.cycle-slideshow {
+	float:left;
+	margin-top:1.875rem;
+	box-sizing:border-box;	
+}
+
+img {
+	max-height:400px;
+	width:auto;
+}
+
+@media screen and (max-width: 460px) {
+	.cycle-slideshow {
+		margin-bottom:100px;
+	}
+
+	img {
+		max-height:400px;
+		width:auto;
+	}	
+}
+
+.first-hero-content {
+	float:left;
+	color:$mainGrey;
+	box-sizing:border-box;
+
+	&__title {
+		font-size:1.4rem;
+		font-weight:300;
+	}
+
+	&__subhead {
+		font-size:1rem;
+		font-weight:500;
+		line-height:.2rem;
+	}
+
+	&__body {
+		font-size:1rem;
+		font-weight:300;
+	}	
+
+	&__body-red {
+		color:$mainRed;
+	}
+
+	&__body-yellow {
+		color:$mainYellow;
+	}	
+
+	&__body-blue {
+		color:$mainBlue;
+	}
+
+	&__body-grey {
+		color:$mainGrey;
+	}
+
+	&__body-black {
+		color:$mainBlack;
+	}			
+}
+
+.first-hero-content a {
+	text-decoration:none;
+	color:$mainBlue;
+}
+
+.contents-list {
+	font-size:1rem;
+	font-weight:500;
+	margin-bottom:.2rem;
+	margin-top:.2rem;
+	color:$mainBlue;
+}
+
+.fwfont {
+	font-family:'Courier';
+	color:$mainRed;
+	font-size:.9rem;
+	word-spacing:.2rem;
+
+	&__focus {
+		font-family:'Courier';
+		color:$brightRed;
+		font-weight:600;
+	}
+}
+
+.onepoint-rule {
+	width:100%;
+	height:1px;
+	background-color:$mainBlue;
+}
+
+.spacer {
+	width:100%;
+	height:.5rem;
+	background-color:#fff;
+}
+
+
+
+
+

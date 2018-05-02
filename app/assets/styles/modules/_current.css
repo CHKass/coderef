@@ -1,0 +1,13 @@
+.sidenav {
+	.current {
+		font-weight:800;
+		color:$mainCyan;
+	}
+
+	.current ul li:hover > a {
+		color:$mainRed;
+	}
+
+}
+
+
