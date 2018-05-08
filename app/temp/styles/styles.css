@@ -716,8 +716,6 @@ img {
 	border-radius:0px 4px 4px 0px;
 	background-image:-webkit-gradient(linear, left top, left bottom, from(#00afec), to(#005f86));
 	background-image:linear-gradient(to bottom, #00afec, #005f86);
-	-webkit-box-shadow:0 4px 0 rgba(0, 0, 0, .1);
-	        box-shadow:0 4px 0 rgba(0, 0, 0, .1);
 }
 
 .backlink a {

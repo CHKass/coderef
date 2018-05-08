@@ -41,7 +41,6 @@
 	position:fixed;
 	border-radius:0px 4px 4px 0px;
 	background-image:linear-gradient(to bottom, $mainCyan, $mainBlue);
-	box-shadow:0 4px 0 rgba(0, 0, 0, .1);
 }
 
 .backlink a {
