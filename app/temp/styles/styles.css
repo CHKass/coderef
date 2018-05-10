@@ -1127,4 +1127,38 @@ footer a {
 
 /* End Reveal and Hide Styles */
 
+table {
+	border-collapse:collapse;
+	table-layout:auto;
+	width:100%;
+	caption-side:top;
+	empty-cells:show;
+	letter-spacing: 1px;
+    font-size: 0.9rem;
+    text-align:left; 
+}
+
+td, th {
+    border:1px solid #005f86;
+    padding:10px 10px;
+    text-align:left;
+}
+
+th {
+	color:#fff;
+	background-color:#005f86;
+	border:1px solid #fff;
+}
+
+td {
+    text-align:left;
+}
+
+caption {
+    padding:10px;
+    padding-left:0;
+    padding-bottom:15px;
+    text-align:left;
+}
+
 
