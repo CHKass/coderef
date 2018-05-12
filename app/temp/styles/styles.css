@@ -1139,19 +1139,26 @@ table {
 }
 
 td, th {
-    border:1px solid #005f86;
+    border-bottom:1px solid #005f86;
+    border-right:1px solid #005f86;
     padding:10px 10px;
     text-align:left;
 }
 
 th {
 	color:#fff;
-	background-color:#005f86;
-	border:1px solid #fff;
+	background-color:#cb362a;
+    border-radius:4px 4px 0px 0px;
+    border-right:1px solid #fff;
+	border-bottom:1px solid #fff;
 }
 
 td {
     text-align:left;
+}
+
+.last-col {
+    border-right:none;
 }
 
 caption {
