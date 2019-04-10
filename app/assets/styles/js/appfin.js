@@ -53,6 +53,10 @@ function fetchTrans() {
     	var linkText = document.createTextNode('Go!')
     	var linkButton = document.getElementById('myBtn')
     	let listElemCount = linkButton.childElementCount;
+    } else {
+    // Do nothing
+    changeTextFalse();
+    }
 
 // If else statement to select correct page for a particular transition
 	    if (startChord === a || am || a7 || amaj7 || am7) {
@@ -78,10 +82,6 @@ function fetchTrans() {
     	linkButton.appendChild(chordLink)
       }
 
-  	} else {
-    // Do nothing
-    changeTextFalse();
-  	}
 
 // If not valid the 'changeTextFalse()' is called
 document.getElementById('myBtn').addEventListener('click', function() {
